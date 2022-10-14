@@ -1,10 +1,10 @@
 .h1 {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 300px;
 }
 
 h1 {
-  font-size: 60px;
-  color: red;
+  font-size: 150px;
+  color: grey;
 }
