@@ -1,0 +1,118 @@
+:root {
+    --primary: #84a137;
+    --secondary: #435120;
+    --white: #fff;
+    --gray: #d3d3d3;
+    --darkGray: rgb(126, 126, 126);
+    --black: #000;
+    --fontSize: 16px;
+    --transition: .3s ease;
+}
+/****************
+basics
+****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url(lorikeet-header.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.logo {
+    font-size: 2rem;
+}
+header nav {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+header nav ul li {
+    display: inline-block;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+header h1 {
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+header p {
+    color: var(--gray);
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 20px #000;
+    padding-bottom: 30px;
+}
+header button {
+    margin-bottom: 200px;
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.container img {
+    width: 100%;
+    padding: 100px 0;
+}
+.container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.container h3 {
+    font-size: 1rem;
+    color: var(--darkGray);
+    padding-bottom: 30px;
+}
+.container p {
+    line-height: 1.6;
+    padding-bottom: 100px;
+}
+.dva {
+    background-color: #84a137;
+    color: var(--white);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.dva h3 {
+    color: var(--white);
+    font-size: 1.3rem;
+}
+.dva p {
+    padding-bottom: 30px;
+}
+.dva button {
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
+footer {
+    background-color: #435120;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer a {
+    color: var(--white);
+    text-decoration: none;
+}
